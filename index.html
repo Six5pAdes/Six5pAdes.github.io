@@ -136,7 +136,7 @@
 									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" title="NPM" alt="NPM" width="75" height="75"/>&nbsp;
 									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original-wordmark.svg" title="Sequelize" alt="Sequelize" width="75" height="75"/>&nbsp;
 									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" title="PostgreSQL" alt="PostgreSQL" width="75" height="75"/>&nbsp;
-									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg" title="SQLite" alt="SQLite" width="75" height="75"/>&nbsp;<br/>
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg" title="SQLite" alt="SQLite" width="75" height="75"/>&nbsp;
 									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original-wordmark.svg" title="SQLAlchemy" alt="SQLAlchemy" width="75" height="75"/>&nbsp;
 									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" title="React" alt="React" width="75" height="75"/>&nbsp;
 									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" title="Redux" alt="Redux" width="75" height="75"/>&nbsp;
@@ -149,9 +149,10 @@
 									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-plain-wordmark.svg" title="dotNet" alt=".net" width="75" height="75"/>&nbsp;
 									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" title="AWS" alt="AWS" width="75" height="75"/>&nbsp;
 									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain-wordmark.svg" title="Docker" alt="Docker" width="75" height="75"/>&nbsp;
-									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="50" height="50"/>&nbsp;
-									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original-wordmark.svg" title="Maven" alt="Maven" width="50" height="50"/>&nbsp;
-									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" title="Spring" alt="Spring" width="50" height="50"/>&nbsp;
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="75" height="75"/>&nbsp;
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-plain-wordmark.svg" title="IntelliJ" alt="IntelliJ" width="75" height="75"/>&nbsp;
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original-wordmark.svg" title="Maven" alt="Maven" width="75" height="75"/>&nbsp;
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" title="Spring" alt="Spring" width="75" height="75"/>&nbsp;
 								<div>
 							</div>
 						</section>
@@ -243,7 +244,7 @@
 								<li><a href="https://www.linkedin.com/in/austinhall-6spades/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>
 							<ul class="copyright">
-								<li style="color: antiquewhite;">&copy; 2024 Austin Hall. All Rights Reserved.</li>
+								<li style="color: antiquewhite;">&copy; <span id="current-year"></span> Austin Hall. All Rights Reserved.</li>
 							</ul>
 						</div>
 					</footer>
@@ -258,6 +259,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				document.getElementById('current-year').textContent = new Date().getFullYear();
+			</script>
 
 	</body>
 </html>
