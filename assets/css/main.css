@@ -2933,28 +2933,42 @@ button:disabled,
   width: 60%;
 }
 
-.tiles article:nth-child(6n - 5):before {
-  background-color: red;
+.tiles article:nth-child(10n - 9):before {
+  background-color: #D88C3F;
 }
 
-.tiles article:nth-child(6n - 4):before {
-  background-color: #ffe5b4;
+.tiles article:nth-child(10n - 8):before {
+  background-color: #000000;
+}
+  .tiles article:nth-child(10n - 7):before {
+  background-color: #404040;
 }
 
-.tiles article:nth-child(6n - 3):before {
-  background-color: #d4d4d4;
+.tiles article:nth-child(10n - 6):before {
+  background-color: #6BAA75;
+}
+  .tiles article:nth-child(10n - 5):before {
+  background-color: #6A8CAF;
 }
 
-.tiles article:nth-child(6n - 2):before {
-  background-color: yellow;
+.tiles article:nth-child(10n - 4):before {
+  background-color: #808080;
 }
 
-.tiles article:nth-child(6n - 1):before {
-  background-color: blue;
+.tiles article:nth-child(10n - 3):before {
+  background-color: #BFBFBF;
 }
 
-.tiles article:nth-child(6n):before {
-  background-color: #ffffff;
+.tiles article:nth-child(10n - 2):before {
+  background-color: #D8C36A;
+}
+
+.tiles article:nth-child(10n - 1):before {
+  background-color: #B65C5C;
+}
+
+.tiles article:nth-child(10):before {
+  background-color: #E0E0E0;
 }
 
 @media screen and (max-width: 1280px) {
@@ -2999,7 +3013,7 @@ button:disabled,
 /* Contact Method */
 
 .contact-method {
-  margin: 0 0 2em 0;
+  margin: 0 0 1em 0;
   padding-left: 3.25em;
   position: relative;
 }
@@ -3673,7 +3687,7 @@ body.is-preload #banner > .inner {
 /* Main */
 
 #main {
-  background-color: #dddbef;
+  background-color: #d8d5f1;
 }
 
 #main > * {
@@ -3693,7 +3707,7 @@ body.is-preload #banner > .inner {
 
 @media screen and (max-width: 736px) {
   #main > * > .inner {
-    padding: 3em 0 1em 0;
+    padding: 2em 0 1em 2em;
     width: calc(100% - 3em);
   }
 }
@@ -3734,7 +3748,7 @@ body.is-preload #banner > .inner {
 }
 
 #contact > .inner > .split > * {
-  padding: 3em 0 1em 3em;
+  padding: 2em 0 1em 2em;
   position: relative;
 }
 
@@ -3769,7 +3783,7 @@ body.is-preload #banner > .inner {
   }
 
   #contact > .inner > .split > * {
-    padding: 3em 0 1em 0;
+    padding: 2em 0 1em 2em;
   }
 
   #contact > .inner > .split > :first-child:before {
@@ -3779,7 +3793,7 @@ body.is-preload #banner > .inner {
 
 @media screen and (max-width: 736px) {
   #contact > .inner > :nth-child(2n - 1) {
-    padding: 3em 0 1em 0;
+    padding: 2em 0 1em 2em;
   }
 }
 
@@ -3843,7 +3857,7 @@ body.is-preload #banner > .inner {
 
 @media screen and (max-width: 736px) {
   #wrapper > * > .inner {
-    padding: 3em 0 1em 0;
+    padding: 2em 0 1em 2em;
     width: calc(100% - 3em);
   }
 }

@@ -24,7 +24,7 @@
 
 		<!-- Header -->
 		<header id="header" class="alt">
-			<a href="index.html" class="logo"><strong>Austin Hall</strong> <span>developing developer</span></a>
+			<a href="index.html" class="logo"><strong>Austin Hall</strong> <span>full stack web developer</span></a>
 			<nav>
 				<a href="#menu">Menu</a>
 			</nav>
@@ -130,6 +130,34 @@
 						<a href="https://poppins-shoppings.onrender.com" class="link"></a>
 					</header>
 				</article>
+				<article>
+					<header class="major">
+						<img src="images/Sonic-Sphere.png" alt="Sonic Sphere" />
+						<a href="https://sonicsphere.onrender.com" class="link"></a>
+					</header>
+				</article>
+				<article>
+					<header class="major">
+						<h3>Sonic Sphere</h3>
+						<p>A Meetup clone, also themed around Sonic the Hedgehog and running with Node and Express; a solo
+							project created implemented with full CRUD capabilities for groups and
+							events.</p>
+						<a href="https://github.com/Six5pAdes/SonicSphere" class="button">github</a>
+					</header>
+				</article>
+				<article>
+					<header class="major">
+						<h3>ConGreG8</h3>
+						<p>A site built with the MERN stack (MongoDB, Express, React, Node.js) dedicated to looking for a church based on an assortment of factors; CRUD APIs include churches, reviews, user's preferences, and church's attributes.</p>
+						<a href="https://github.com/Six5pAdes/ConGreG8" class="button">github</a>
+					</header>
+				</article>
+				<article>
+					<header class="major">
+						<img src="https://mindset-training.co.uk/wp-content/uploads/2023/12/TO-BE-ADDED-1536x1152.jpg" alt="ConGreG8" />
+						<a href="#" class="link"></a>
+					</header>
+				</article>
 			</section>
 
 
@@ -198,6 +226,7 @@
 							title="Maven" alt="Maven" width="75" height="75" />&nbsp;
 						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg"
 							title="Spring" alt="Spring" width="75" height="75" />&nbsp;
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" title="MongoDB" alt="MongoDB" width="75" height="75"/>&nbsp;
 						<div>
 						</div>
 			</section>
@@ -205,68 +234,45 @@
 		</div>
 
 		<!-- Contact -->
-		<!-- <section id="contact">
-						<div class="inner">
-							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
-								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<span>austinhall6smusic@gmail.com</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(949) 800-8381</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>Irvine, California</span>
-									</div>
-								</section>
-							</section>
-						</div>
-					</section> -->
-
-		<!-- Footer -->
-		<footer id="footer">
+		<section id="contact">
 			<div class="inner">
 				<header class="major">
 					<h2>Get in Touch with Me</h2>
 				</header>
+			</div>
+			<div class="inner">
+				<section>
+					<form method="POST" action="https://formsubmit.co/austinhall6smusic@gmail.com">
+						<input type="hidden" name="_subject" value="New Portfolio Contact!">
+						<input type="hidden" name="_captcha" value="false">
+						<input type="hidden" name="_next" value="https://six5pades.github.io/thanks.html">
+						<input type="hidden" name="_honey" style="display:none">
+						<div class="fields">
+							<div class="field half">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" required />
+							</div>
+							<div class="field half">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" required />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="6" required></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="primary" /></li>
+							<li><input type="reset" value="Clear" /></li>
+						</ul>
+					</form>
+				</section>
 				<section class="split">
 					<section>
 						<div class="contact-method">
 							<span class="icon solid alt fa-envelope"></span>
 							<h3>Email</h3>
-							<span><a href="mailto:someone@example.com">austinhall6smusic@gmail.com</a></span>
+							<span>austinhall6smusic@gmail.com</span>
 						</div>
 					</section>
 					<section>
@@ -276,23 +282,39 @@
 							<span>(949) 800-8381</span>
 						</div>
 					</section>
-					<section>
+					<!-- <section>
 						<div class="contact-method">
 							<span class="icon solid alt fa-home"></span>
 							<h3>Address</h3>
 							<span>Irvine, California</span>
 						</div>
+					</section> -->
+					<section>
+						<div class="contact-method">
+							<span class="icon brands alt fa-github"></span>
+							<h3>GitHub</h3>
+							<span>https://www.github.com/Six5pAdes</span>
+						</div>
+					</section>
+					<section>
+						<div class="contact-method">
+							<span class="icon brands alt fa-linkedin-in"></span>
+							<h3>LinkedIn</h3>
+							<span>https://www.linkedin.com/in/austinhall-6spades/</span>
+						</div>
 					</section>
 				</section>
-				<ul class="icons">
-					<li><a href="https://www.github.com/Six5pAdes" class="icon brands alt fa-github"><span
-								class="label">GitHub</span></a></li>
-					<li><a href="https://www.linkedin.com/in/austinhall-6spades/"
-							class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-				</ul>
+			</div>
+					</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
 				<ul class="copyright">
-					<li style="color: antiquewhite;">&copy; <span id="current-year"></span> Austin Hall. All Rights
-						Reserved.</li>
+					<li style="color: antiquewhite;">&copy;
+						 <span id="current-year"></span>
+						 Austin Hall. All Rights Reserved.
+						</li>
 				</ul>
 			</div>
 		</footer>
